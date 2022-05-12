@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>DESKTOP VIEW</title>
+</head>
+<body>
+    <main>
+        <h3>SpaceX Launch Program</h3>
+        <div class="row">
+
+            <div class="col">
+        <div class="box" id="box1"><b>Filters</b>
+            <p>Launch Year</p>
+            <hr>
+            <div class="row">
+                <div class="col">
+            <button type="button" class="btn btn-success btn-sm">2006</button><br><br>
+                </div>
+                <div class="col">
+            <button type="button" class="btn btn-success btn-sm">2007</button><br><br>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2008</button><br><br>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2009</button><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2010</button><br><br>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2011</button><br><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2012</button><br><br>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2013</button><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2014</button><br><br>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2015</button><br><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2016</button><br><br>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2017</button><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2018</button><br><br>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success btn-sm">2019</button><br><br>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-success btn-sm">2020</button><br><br>
+                    </div>
+                </div>
+            </div>
+                
+                <p>Successful Launch</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-success btn-sm">True</button><br><br>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-success btn-sm">False</button><br><br>
+                    </div>
+                </div>
+
+                <p>Successful Landing</p>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-success btn-sm">True</button><br><br>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-success btn-sm">False</button><br><br>
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="col">
+        <div class="box" id="box2"><img src="img1.PNG">
+            <label class="text"><strong>FalconSet #1</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>2006</span><br>
+                <b>Successful Launch: </b><span>False</span><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b><br>
+            </label>
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="box" id="box2"><img src="img2.PNG">
+            <label class="text"><strong>DemoSet #2</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b><br>
+            </label>
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="box" id="box2"><img src="img3.PNG">
+            <label class="text"><strong>Trailblazer #3</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b>
+            </label>
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="box" id="box2"><img src="img4.PNG">
+            <label class="text"><strong>RatSat #4</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b>
+            </label>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    
+        <div class="row">
+
+        <div class="col">
+        <div class="box" id="box4"><img src="img5.PNG">
+            <label class="text"><strong>{mission_name} #<br>{flight_number}</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b>
+            </label>
+            </div>
+        </div>
+
+         <div class="col">
+        <div class="box" id="box5"><img src="img6.PNG">
+            <label class="text"><strong>{mission_name} #<br>{flight_number}</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b>
+            </label>
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="box" id="box6"><img src="img7.PNG">
+            <label class="text"><strong>{mission_name} #<br>{flight_number}</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b>
+            </label>
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="box" id="box7"><img src="img8.PNG">
+            <label class="text"><strong>{mission_name} #<br>{flight_number}</strong><br>
+                <b>Mission Ids:</b>
+                <ul>
+                    <li>{list Mission Ids}</li>
+                </ul>
+                <b>Launch Year: </b><span>{launch_year}</span><br>
+                <b>Successful</b><span>&nbsp &nbsp &nbsp{launch_success}</span> <br><b>Launch:</b><br>
+                <b>Successful </b>&nbsp &nbsp &nbsp <span>{launch_landing}</span>
+                <b>Landing:</b>
+            </label>
+            </div>
+        </div>
+
+    </div>
+    </div>
+        <br><p><b>Developed by: </b>{Vishal Lokhande}</p><br>
+        
+    </main>
+</body>
+</html>
